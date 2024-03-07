@@ -1,6 +1,6 @@
 //
 //  AutoUpdataManage.swift
-//  OB_API
+//  
 //
 //  Created by 譚培成 on 2021/11/6.
 //

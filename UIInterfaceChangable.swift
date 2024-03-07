@@ -1,6 +1,6 @@
 //
 //  UIInterfaceChangable.swift
-//  JX_SBK_UI_MODULE
+//  
 //
 //  Created by 譚培成 on 2021/10/14.
 //
