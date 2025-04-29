@@ -25,6 +25,11 @@ private class RXLocalizedStore {
         UserManager.shared.language.subscribe(with: self) { store, _ in
             store.refresh()
         }.disposed(by: disposeBag)
+        
+        needPrune.throttle(.seconds(1), scheduler: MainScheduler.instance)
+            .subscribe(with: self) { store, _ in
+                store.prune()
+            }.disposed(by: disposeBag)
     }
 }
 
