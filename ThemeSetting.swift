@@ -97,3 +97,6 @@ protocol ThemeBaseDarkBlue: ThemeBaseDarkGreen, ThemeBaseBlue {}
 extension ThemeBaseDarkBlue {}
 
 class ThemeDarkBlue: ThemeBaseDarkBlue, ThemeProtocol {}
+
+// demo
+UIView().backgroundColor = ThemeSetting.theme.themeColor
