@@ -196,3 +196,6 @@ extension RxRXLocalized where T: UIButton {
         }
     }
 }
+
+// demo
+UIlabel().rl.text = RXLocalizedConfig(key: "hello", comment: "hollo")
